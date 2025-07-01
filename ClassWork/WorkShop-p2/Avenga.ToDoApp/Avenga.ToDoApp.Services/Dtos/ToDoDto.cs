@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Avenga.ToDoApp.Services.Dtos
+﻿namespace Avenga.TodoApp.Services.Dtos
 {
-    internal class ToDoDto
+    public class TodoDto
     {
     }
 }

@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Avenga.ToDoApp.Web.Models;
+using Avenga.TodoApp.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Avenga.ToDoApp.Web.Controllers
+namespace Avenga.TodoApp.Web.Controllers
 {
     public class HomeController : Controller
     {

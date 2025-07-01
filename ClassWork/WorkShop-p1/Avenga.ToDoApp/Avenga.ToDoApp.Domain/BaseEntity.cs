@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Avenga.ToDoApp.Domain
+﻿namespace Avenga.TodoApp.Domain
 {
-    internal class BaseEntity
+    public abstract class BaseEntity
     {
+        public int Id { get; set; }
     }
 }

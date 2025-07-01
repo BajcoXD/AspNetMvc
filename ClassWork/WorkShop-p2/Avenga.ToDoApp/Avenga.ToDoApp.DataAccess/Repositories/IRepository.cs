@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Avenga.TodoApp.Domain;
 
-namespace Avenga.ToDoApp.DataAccess.Repositories
+namespace Avenga.TodoApp.DataAccess.Repositories
 {
-    internal interface Interface1
+    public interface IRepository<T> where T : BaseEntity
     {
+        IEnumerable<T> GetAll();
+        T GetById(int id);
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(int id);
     }
 }

@@ -1,4 +1,4 @@
-namespace Avenga.ToDoApp.Web.Models
+namespace Avenga.TodoApp.Web.Models
 {
     public class ErrorViewModel
     {

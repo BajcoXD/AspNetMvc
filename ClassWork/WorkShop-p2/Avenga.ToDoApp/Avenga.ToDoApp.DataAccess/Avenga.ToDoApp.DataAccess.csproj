@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Avenga.ToDoApp.Domain\Avenga.ToDoApp.Domain.csproj" />
+    <ProjectReference Include="..\Avenga.TodoApp.Domain\Avenga.TodoApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

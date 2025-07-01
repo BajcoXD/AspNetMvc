@@ -1,7 +1,7 @@
-﻿namespace Avenga.ToDoApp.Domain
+﻿namespace Avenga.TodoApp.Domain
 {
-    public class Class1
+    public class Status : BaseEntity
     {
-
+        public string Name { get; set; }
     }
 }

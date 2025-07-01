@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Avenga.TodoApp.Services.Dtos;
 
-namespace Avenga.ToDoApp.Services.Services.Interfaces
+namespace Avenga.TodoApp.Services.Services.Interfaces
 {
-    internal interface IToDoService
+    public interface ITodoService
     {
+        IEnumerable<TodoDto> GetAllTodos();
     }
 }
